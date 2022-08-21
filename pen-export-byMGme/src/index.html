@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Satisfy|Baloo|Forum" rel="stylesheet">
+        <style>
+            body{
+                background-color: #f0ece0
+            }
+            #navbar{
+                display: grid;
+                grid-template-columns: 50% 15% 15% 15%;
+                background-color:#f2ecc5;
+                position:fixed;
+                top:0;
+                width:100%;
+            }
+            .navitem{
+                font-family: 'Lobster', cursive;
+                font-size: 20px;
+                color: #3f392d;
+            }
+            #welcome-section{
+                width: 100%;
+                background-color:#f0ece0;
+                height: 100vh;
+                border: solid;
+                border-width: 15px;
+                border-color:white;
+                background-repeat: repeat;
+            }
+            h1{
+                color: #3f392d;
+                font-family: 'Lobster', cursive;
+                text-align: center;
+                margin-top:40vh;
+                font-size:40px;
+            }
+            h2{
+                color: #cb9c42;
+                font-family: 'Satisfy', cursive;
+                text-align: center;
+                position:relative;
+                font-size:20px;
+            }
+            #introduction{
+                text-align: center;
+                font-family: 'Satisfy', cursive;
+                color:#3f392d;
+                font-size: 30px;
+                margin-top: 50px;
+                margin-bottom:50px;
+            }
+            .projects-container{
+                display: grid;
+                grid-template-columns: 20% 30% 30% 20%;
+                margin-bottom:200px;
+            }
+            .projects-tile{
+                margin: 10px;
+                border: solid;
+                color: white;
+                border-width: 2px;
+                height:200px;
+            }
+            .projects-font{
+                color:#4c8faa;
+                font-family: 'Satisfy', cursive;
+                font-size:20px;
+                text-align:center; 
+            }
+            .div-text{
+                background-color:white;
+                border: solid;
+                border-width: 1px;
+                border-color: #4c8faa;
+            }
+
+            .load-img{
+                width:100%;
+                height:100%;
+
+
+            }
+            #contacts{
+                width:100%;
+                height: 600px;
+                background:linear-gradient(#f0ece0,#68a698);
+                text-align:center;
+               
+            }
+            .s3t1{
+                font-size: 30px;
+                color: #3f392d;
+                font-family: 'Lobster', cursive;
+                margin-top: 100px;
+            }
+            .s3t2{
+                font-size: 20px;
+                color:#0f4b22;
+                font-family: 'Satisfy', cursive;
+                position: relative;
+
+            }
+            .contact-container{
+                display: grid;
+                grid-template-columns: 30% 25% 25% 20%;
+                margin-top: 100px;
+              
+            }
+            .circle1{
+                height: 10vw;
+                width: 10vw;
+                background:url(https://cdn.dribbble.com/users/4852/screenshots/3974563/more-tea-vicar.jpg);
+                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-size: 15vw auto;
+                margin-left:10%;
+                position:relative;
+                font-family: 'Lobster', cursive;
+                display:grid;
+                border:solid;
+                border-color: white;
+                border-width: 5px;
+                color: #cb9c42;
+
+            }
+            .circle2{
+                height: 10vw;
+                width: 10vw;
+                background:url(https://cdn.dribbble.com/users/61921/screenshots/4724856/dribbble.png);
+                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-size: 15vw auto;
+                margin-right:10%;
+                position: relative;
+                font-family: 'Lobster', cursive;
+                display: grid;
+                border:solid;
+                border-color: white;
+                border-width: 5px;
+                color: #cb9c42;
+                
+            }
+            @media (max-width: 100px){
+                .navitem{
+                    font-size: 10px;
+                }
+            }
+      
+            
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <section id="welcome-section">
+                <nav id="navbar">
+                        <div class="blank"></div>
+                        <div class="item1">
+                            <a href="#welcome-section"><p class="navitem">
+                                About
+                            </p></a>
+                        </div>
+                        <div class="item2">
+                            <a href="#projects"><p class="navitem">
+                                Work
+                            </p></a>
+                        </div>
+                        <div class="item3">
+                            <a href="#contacts"><p class="navitem">
+                                Contact
+                            </p></a>
+                        </div>
+                    </nav>
+            <h1>Hey i'am Min.</h1>
+            <h2>a web developer</h2>
+        </section>
+        <section id="projects">
+            <p id="introduction">There are some of my projects.</p>
+            <div class="projects-container">
+                <div class="blank"></div>
+                <div class="projects-tile">
+                    <div class="div-img">
+                        <a href="#"><iframe src="https://codepen.io/Mint_Choc/full/mYwOVE" class="load-img"></iframe></a>
+                    </div>
+                    <div class="div-text">
+                        <a href="https://codepen.io/Mint_Choc/full/mYwOVE"><p class="projects-font">Tribute Page</p></a>
+                    </div>
+                </div>
+                <div class="projects-tile">
+                    <div class="div-img">
+                        <a href="#"><iframe src="https://codepen.io/Mint_Choc/full/dEdXor" class="load-img"></iframe></a>
+                    </div>
+                    <div class="div-text">
+                        <a href="https://codepen.io/Mint_Choc/full/dEdXor"><p class="projects-font">Technical Documentation Page</p></a>
+    
+                    </div>
+                </div>
+                <div class="blank"></div>
+            </div>
+
+
+        </section>
+        <section id="contacts">
+            <p class="s3t1">Let's work together...</p>
+            <p class="s3t2">How do you take your coffee?</p>
+            <div class="contact-container">
+                <div class="blank"></div>
+                <div class="ctbox">
+                    <a href="https://github.com/chen3yym" id="profile-link" target="_blank"><div class="circle1">GitHub</div></a>
+                </div>
+                <div class="ctbox">
+                    <a href="https://www.instagram.com/min_chen_2/" id="profile-link"target="_blank"><div class="circle2">Instagram</div></a> 
+                </div>
+                <div class="blank"></div>
+            </div>
+
+        </section>
+    </body>
+</html>
